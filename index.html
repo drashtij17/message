@@ -1,0 +1,31 @@
+<html>
+<head>
+
+</head>
+
+<!-- Your Chat plugin code -->
+
+<body>
+  <div class="fb-customerchat"page_id="105886652310990" minimized="true"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '649574166737877',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v2.11',
+      is_guest : true
+    });
+  };
+(function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+   
+</body>
+</html>
+
